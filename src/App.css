@@ -1,38 +1,129 @@
-.App {
+.errors {
+  color: red;
+  padding: 0 2rem;
+  background-color: rgba(151, 146, 146, 0.747);
+}
+
+.headerPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.linkBtn {
+  text-decoration: none;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  border: 1px solid black;
+  font-size: 30px;
+  padding: 0 3rem;
+}
+
+.homeBtn {
+  color: white;
+  background-color: black;
+}
+
+.titleHeader {
+  font-size: 50px;
+}
+
+.homepage {
+  background-image: url("../Assets/Pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 50em;
+  margin: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage h2 {
+  font-size: 80px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.295);
+  margin-bottom: 10rem;
+}
+
+.imgBackround {
+  background-color: rgba(255, 255, 255, 0.295);
+}
+
+.form {
+  /* display: flex;
+  flex-direction: column; */
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.firsth2 {
+  margin: 0;
+  padding: 1rem;
   text-align: center;
+  border-bottom: 2px solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.secondh2 {
+  text-align: left;
+  margin: 0;
+  padding: 1rem 2rem;
+  background-color: rgba(151, 146, 146, 0.747);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  background-color: rgba(151, 146, 146, 0.747);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input {
+  width: 260px;
+}
+
+select {
+  width: 265px;
+}
+
+.addorder {
+  margin: 2rem 22rem;
+  width: 30%;
+  background-color: rgba(151, 146, 146, 0.747);
+}
+
+.backroundImg {
+  background-image: url(../Assets/Pizza.jpg);
+  width: 100%;
+  height: 20em;
+}
+
+.confirm {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.dogImg h2 {
+  font-size: 4rem;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.541);
+  width: 50%;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dogImg {
+  background-image: url("../Assets/Pizza.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 15em;
+  display: flex;
+  align-items: center;
 }
